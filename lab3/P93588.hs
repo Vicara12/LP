@@ -18,8 +18,8 @@ myZipWith f l1 l2 = [f a b | (a,b) <- zip l1 l2]
 
 -- 4)
 
-thingfy :: [Int] -> [Int] -> [(Int,Int)]
-thingfy l1 l2 = [(a,b) | a <- l1, b <- l2, mod a b == 0]
+thingify :: [Int] -> [Int] -> [(Int,Int)]
+thingify l1 l2 = [(a,b) | a <- l1, b <- l2, mod a b == 0]
 
 
 -- 5)
